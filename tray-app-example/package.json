@@ -2,9 +2,10 @@
   "name": "tray-app-example",
   "version": "1.0.0",
   "description": "Esta es mi primer demo desplegando una tray app con electron",
-  "main": "main.js",
+  "main": "trayBarMenu.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
   },
   "author": "Facundo Colavini",
   "license": "ISC",
